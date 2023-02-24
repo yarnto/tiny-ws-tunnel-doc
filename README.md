@@ -28,7 +28,9 @@
 
 ### 3.1 首先下载
 
-TODO github 的release页面下载。包括 linux amd64 arm64 armv7 的程序包，还有windows的 amd64 程序包
+github https://github.com/yarnto/tiny-ws-tunnel-doc 的release页面下载。包括 linux amd64 arm64 armv7 的程序包，还有windows的 amd64 程序包
+备用下载地址：
+todo
 
 程序包目录结构
 
