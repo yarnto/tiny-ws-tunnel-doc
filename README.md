@@ -28,11 +28,12 @@
 
 ### 3.1 首先下载
 
-github https://github.com/yarnto/tiny-ws-tunnel-doc 的release页面下载。包括 linux amd64 arm64 armv7 的程序包，还有windows的 amd64 程序包
-备用下载地址：
-todo
+github https://github.com/yarnto/tiny-ws-tunnel-doc 的release页面下载。包括 linux amd64 arm64 armv7 的程序包，还有windows的 amd64 程序包。
+备用下载地址：https://pan.hk.zhangyt.fun/s/bRtk
 
-程序包目录结构
+绿色软件，下载解压即安装。
+
+**程序包目录结构**
 
 ```bash
 conf  # 配置文件目录，初次启动为空目录，会在执行命令的时候自动生成相关配置文件
