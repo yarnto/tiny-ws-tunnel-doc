@@ -1,4 +1,4 @@
-## 1. 自写原因
+## 1. 使用自写工具的原因
 
 之前自己架设在家里的树莓派和香橙派上的个人网盘，日记等服务分别使用过`frp`和`nps`作为内网穿透代理工具。
 奈何frp没有web控制台，且配置略繁琐，而nps在使用过程中发现不定期在没有任何实际业务负载的情况下cpu占用率持续100%的情况。
@@ -201,3 +201,15 @@ your.public.domain {
 ```
 
 在配置中我设置了一个头信息 `Tiny-Real-IP` 是为了让twt server知道从caddy连接过来的连接地源地址是什么。nginx的配置方式类似，就是设置一个反向代理，记得设置传递一个头信息。
+
+## 5. 关于web控制台。
+
+使用者可以根据web api自行开发web控制台。比如我把web控制台的界面放在了自己另一个web应用里。
+
+关于web api的文档后期视境况补充。
+
+我另外一个应用的web控制台两张截图，仅供参考。
+
+![#706px #263px](https://www.wavesxa.com/opendoc/attachment/278-agent%E5%9C%A8%E7%BA%BF.jpg?id=60)
+
+![#706px #263px](https://www.wavesxa.com/opendoc/attachment/278-%E5%9C%B0%E5%9D%80%E6%98%A0%E5%B0%84.jpg?id=61)
